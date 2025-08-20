@@ -1,0 +1,14 @@
+[package]
+name = "my_tsp_test_prject"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[[bin]]
+name = "tcp_server"
+path = "src/tcp_server.rs"
+
+[[bin]]
+name = "tcp_client"
+path = "src/tcp_client.rs"
